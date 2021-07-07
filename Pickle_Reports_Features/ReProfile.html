@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>ReProfile</title>
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+  initializeToc();
+});
+</script>
+    <!-- We are using Font Awesome - http://fortawesome.github.com/Font-Awesome - licensed under CC BY 3.0 -->
+  </head>
+  <body>
+    <div id="container">
+      <div id="top" />
+      <div id="toc">
+        <p class="tocCollapser" title="Collapse Table of Content">«</p>
+        <ul class="features">
+          <li class="file" id="root">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="file">
+            <a href="GulaqAutomationFeatures.html">Gulaq Automation Testing</a>
+          </li>
+          <li class="file">
+            <a href="Logout.html">Logout</a>
+          </li>
+          <li class="file">
+            <span class="current">ReProfile</span>
+          </li>
+          <li class="file">
+            <a href="Subscribe.html">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+      <div id="feature">
+        <h1>ReProfile</h1>
+        <div class="description">
+          <p>Simple calculator for adding two numbers</p>
+        </div>
+        <ul id="scenarios">
+          <li class="scenario">
+            <div class="scenario-heading">
+              <h2></h2>
+            </div>
+            <div class="steps">
+              <ul>
+                <li class="step">
+                  <span class="keyword">Given </span>First launch the application</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click LOGIN WITH ZERODHA</li>
+                <li class="step">
+                  <span class="keyword">And </span>Enter the User ID and Password<div class="table_container"><table class="datatable"><thead><tr><th>userid</th><th>paasword</th></tr></thead><tbody><tr><td>IT4817</td><td>Alok1857@</td></tr></tbody></table></div></li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Login</li>
+                <li class="step">
+                  <span class="keyword">And </span>Enter PIN</li>
+                <li class="step">
+                  <span class="keyword">Then </span>Click Continue</li>
+              </ul>
+            </div>
+          </li>
+          <li class="scenario">
+            <div class="scenario-heading" id="reprofiling-and-next-button-functionality">
+              <p class="tags">Tags: <span>@Reprofile_Next</span></p>
+              <h2>Reprofiling and Next Button functionality</h2>
+            </div>
+            <div class="steps">
+              <ul>
+                <li class="step">
+                  <span class="keyword">Given </span>Gulaq Dashboard</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Re Profile button on Dashbaord</li>
+                <li class="step">
+                  <span class="keyword">And </span>Redirected to the Questionnaire</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for First Question</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Next after First selection</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for Second Question</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Next after Second selection</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for Third Question</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Next after Third selection</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for Forth Question</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Next after Forth selection</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for Fifth Question</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Next after Fifth selection</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for Sixth Question</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Next after Sixth selection</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for Seventh Question</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Submit</li>
+                <li class="step">
+                  <span class="keyword">And </span>You have your Prefernces</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Submit with Preferences</li>
+                <li class="step">
+                  <span class="keyword">And </span>Popup Window showing the profile</li>
+                <li class="step">
+                  <span class="keyword">And </span>click on Proceed To Dashboard</li>
+                <li class="step">
+                  <span class="keyword">Then </span>Redirected to the Dashboard with Updated Profile</li>
+              </ul>
+            </div>
+            <a class="scenario-link" href="javascript:showImageLink('reprofiling-and-next-button-functionality')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
+          </li>
+          <li class="scenario">
+            <div class="scenario-heading" id="reprofiling-and-back-button-functionality">
+              <p class="tags">Tags: <span>@Reprofile_Back</span></p>
+              <h2>Reprofiling and Back button Functionality</h2>
+            </div>
+            <div class="steps">
+              <ul>
+                <li class="step">
+                  <span class="keyword">Given </span>Dashboard</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Re Profile</li>
+                <li class="step">
+                  <span class="keyword">And </span>Select Answer for First</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Next after Selection</li>
+                <li class="step">
+                  <span class="keyword">And </span>Click Back</li>
+                <li class="step">
+                  <span class="keyword">Then </span>Redirected to the Previous Question Answered</li>
+              </ul>
+            </div>
+            <a class="scenario-link" href="javascript:showImageLink('reprofiling-and-back-button-functionality')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="footer">
+        <p>Test results generated for: Gulaq Automation Test</p>
+        <p>Generated on: 25 June 2021 14:35:06</p>
+        <p>Produced by Pickles, version 2.21.1.0</p>
+      </div>
+    </div>
+  </body>
+</html>
